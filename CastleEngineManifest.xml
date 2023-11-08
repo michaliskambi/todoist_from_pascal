@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="todoist"
+  standalone_source="todoist.dpr"
+  author="Michalis Kamburelis"
+>
+  <dependencies>
+    <!--
+      Read https links.
+      Thanks to this declaration in CastleEngineManifest.xml,
+      the CGE build tool / editor will automatically put here OpenSSL DLLs
+      when building this project on Windows.
+    -->
+    <dependency name="Https" />
+  </dependencies>
+  <data exists="false" />
+</project>
